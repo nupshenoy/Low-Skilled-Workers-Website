@@ -1,0 +1,156 @@
+.card {
+  /* Add shadows to create the "card" effect */
+
+  transition: 0.3s;
+  width: 1000px;
+  background-color: white;
+  margin: 0 auto; /* Added */
+  float: none; /* Added */
+  margin-bottom: 10px; /* Added */
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 12px 12px 22px grey;
+}
+
+/* Add some padding inside the card container */
+.container {
+  padding: 2px 16px;
+}
+
+#reg-form {
+  /*background-color: grey;*/
+  color: white;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  margin: 0px;
+  /*text-shadow:0 0 3px #000000, 0 0 5px #4c4d4c;*/
+  color: black;
+}
+h1 {
+  text-align: center;
+  font-size: 50px;
+  color: rgb(218, 143, 6);
+  text-shadow: 2px 2px 2px #000000;
+}
+table {
+  align-content: center;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: normal;
+  width: max-content;
+  font-size: large;
+}
+
+td {
+  padding: 15px;
+  margin-left: 15px;
+}
+
+input[type="text"],
+[type="tel"],
+[type="email"],
+[type="password"],
+[type="date"],
+[list] {
+  border: 0;
+  background-color: transparent;
+  border-bottom: 3px solid black;
+  padding: 15px;
+  width: 300px;
+  height: 12px;
+  color: black;
+}
+
+#terms-conditions {
+  color: black;
+  font-size: 18px;
+  margin: 10px;
+}
+
+.submit {
+  border: grey;
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-left: 40px;
+  /*opacity: 0.6;
+    transition: 0.3s;*/
+}
+
+.reset {
+  border: grey;
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-left: 40px;
+}
+
+.submit:hover {
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  cursor: pointer;
+  background-color: rgb(218, 143, 6);
+  color: white;
+}
+
+.reset:hover {
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  cursor: pointer;
+  background-color: rgb(218, 143, 6);
+  color: white;
+}
+
+.container {
+  margin-left: 40px;
+}
+
+a {
+  color: black;
+}
+
+#reg-form {
+  margin-bottom: 60px;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+
+footer {
+  transition-timing-function: linear;
+  transition-property: border-color;
+  transition-duration: 0ms;
+  background-image: linear-gradient(transparent, black);
+  padding: 20px;
+  color: white;
+  font-size: small;
+  text-align: center;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  bottom: 0;
+  width: 100%;
+}
+
+footer a {
+  color: white;
+}
+footer a:hover {
+  color: #40b6ff;
+}
